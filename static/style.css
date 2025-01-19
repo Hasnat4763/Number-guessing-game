@@ -1,0 +1,16 @@
+head{
+    text-align: center;
+    color: whitesmoke;
+}
+body{
+    text-align: center;
+    text-align: top;
+    color:whitesmoke;
+    background:cornflowerblue;
+    button{
+        cursor:pointer;
+    }
+    button:hover{
+        color:slategray;
+    }
+}

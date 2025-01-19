@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <h3>Number Guessing game</h3>
+</head>
+<body>
+    <h2> Guess the number that sits between 1 and 100 </h2>
+    <form method = "POST" action = "">
+        <input type = "number" name="guess" placeholder="Enter guessed number" required>
+        <button type="submit">Guess</button>
+    </form>
+    <p>
+        {{ message}}
+    </p>
+    <p>
+        {{ hint }}
+    </p>
+    <a href"/reset"> reset game </a>
+</body>
